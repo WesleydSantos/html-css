@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(9, 1, 59);
+        }
+        a{
+            color: rgb(0, 60, 255);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(221, 93, 8);
+        }
+        a:hover {
+            text-decoration: underline;
+            color: brown;
+        }
+        a:active {
+            color: rgb(160, 106, 52);
+        }
+        .especial::before {
+            content: '=>';
+        }
+        div:hover {
+            color: rgb(236, 149, 99);
+        }
+        h1 {
+            color: rgb(253, 109, 65);
+            text-align: center;
+        }
+        h2 {
+            color: rgb(255, 0, 0);
+            text-align: center;
+        }
+        div {
+            display: inline-block;
+            width: 300px;
+            height: 150px;
+            background-color: rgb(0, 93, 122);
+            border: 1px solid rgb(1, 4, 31);
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 10px 10px 30px 5px rgba(0, 2, 32, 0.829);
+            
+        }
+    
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <h2>Links do Guanabara</h2>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" class="especial" target="_blank">Repositório github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo" class="especial" target="_blank">Canal do YouTube</a></li>
+        <li  ><a href="https://www.cursoemvideo.com" target="_blank">Site do curso em video</a></li>
+    </ul>
+    <h2>Minhas Redes Sociais</h2>
+    <ul>
+        <div class="sociais">
+            <li class="sociais"><a href="https://www.facebook.com/" target="_blank">Meu Facebook</a></li>
+        </div>
+        <div class="sociais">
+            <li class="sociais"><a href="https://www.instagram.com/" target="_blank">Meu Instagram</a></li>
+        </div>
+        
+    </ul>
+</body>
+</html>
